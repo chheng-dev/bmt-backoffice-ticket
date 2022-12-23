@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(46 186 226 / var(--tw-bg-opacity));
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  border-radius: 0.375rem;
+
+}
+
+.ant-layout-sider {
+  background-color: white !important;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.ant-layout-sider-trigger {
+  background-color: white !important;
+  color: #282c34;
+}
+
+.ant-popover .ant-popover-inner {
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+}
+
+.ant-layout-sider-collapsed .ant-space-item span {
+  display: none;
+}
+
+.ant-menu-item-selected {
+  /* background-color: #2EBAE2 !important; */
+}
+
+.ant-menu-item {
+  border-radius: 0 !important;
+}
+
+.ant-menu-light .ant-menu-item-selected {
+  display: flex !important;
+  /* justify-content: center !important; */
+  align-items: center !important;
+}
+
+.ant-menu-inline-collapsed>.ant-menu-item {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.ant-switch-inner {
+  background: #00000040;
+}
+
+.bg-login{
+  background: url("./components//assets//img//bg-login.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
